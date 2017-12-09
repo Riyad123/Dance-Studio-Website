@@ -1,0 +1,1035 @@
+@media only screen and (max-width:1000px) {
+    
+    
+    
+    /* ==========================================================================
+        HEADER SECTION
+   ========================================================================== */
+
+    .header{
+        display:none;
+    }
+    hr{
+        border:0px ;
+    }
+    .logonav {
+    display:block;
+}
+    .MenuBar{
+        position:fixed;
+         z-index: 100000;
+       background:rgba(255, 255, 255, 0.96)
+    }
+    .addingclass{
+    position:fixed;
+    z-index:100;
+    margin-top:0px;
+}
+.SearchBt{
+     position:relative;
+    right: -15px;
+    top:0px;
+    display:block;
+    border:1px solid;
+     padding:0px 0px;
+    width:240px
+}
+#SearchText{
+   width:200px;
+    float:left
+}
+.SRC{
+    position:relative;
+    top:-2px;
+    left:8px
+}
+    #hidesearch{
+        display: none;
+    }
+     /* =================================
+        Slider SECTION
+   =========================== */
+     .sec2{
+        margin-top:82px;
+         height:430px
+    }
+    .sec2 h1{
+    width:700px;
+    font-size:50px;
+}
+.sec2 p{
+    font-size:18px;
+    width:600px;
+}
+ .sec2 a{
+    left:40%;
+}
+.LeftArrow{
+    font-size:20px;
+    top:200px;
+    left:10px
+}
+.RightArrow{
+    font-size:20px;
+    top:200px;
+    right:10px
+}
+ .slide1, .slide1 img,  .slide2, .slide2 img,  .slide3, .slide3 img,  .slide4, .slide4 img{
+    height:430px;
+}
+/* =================================
+        Form SECTION
+   =========================== */
+    #Name, #Phone, #SubmitDate, #BtnSubmit{
+        width:18.5%
+    }
+    .iconGroup{
+    margin-top:70px;
+    text-align:center;
+}
+ .iconGroup img{
+margin-top:50px
+}
+.iconGroup h1{
+    font-size: 26px;
+}
+.iconGroup p{
+    border-left:none;
+}
+/* =================================
+        Counter SECTION
+   =========================== */
+.countSame h1{
+   left: 20%;
+}
+    /* =================================
+        Content SECTION
+   =========================== */
+    .SectionSame{
+    width:100%;
+    height:700px
+}
+.SecContent{
+    width:100%;
+     height: 300px;
+    text-align:center
+}
+.SecContent h1{
+    font-size:40px;
+   padding:0px;
+}
+.SecContent p{
+    border-left:none;
+    padding-left:9%;
+}
+.SecContent a{
+    left:1%;
+}
+.SecImage{
+    width:100%;
+    height: 400px;
+}
+.extraBg{
+    height:740px;
+}
+.square{
+   display:none;
+}
+    /* =================================
+        Coach SECTION
+   =========================== */
+    .SameCoach{
+        width:33%;
+        float:left;
+    }
+.CoachRow{
+    height:600px
+}
+.CoachRow h1{
+    font-size:24px;
+}
+.CoachRow h2{
+    font-size:17px;
+}
+.CoachRow a{
+    top:50px;
+}
+    
+    /* =================================
+        Performance SECTION
+   =========================== */
+    .VideoSection{
+    width:100%;
+    height:1600px;
+}
+
+.FirstVideo{
+    width:100%;
+    height:400px;
+}
+.FirstOne{
+    width:100%;
+    height:100%;
+    float:left;
+}
+.FirstTwo{
+    width:100%;
+}
+  /* =================================
+        Event SECTION
+   =========================== */
+    .SameEvent{
+        float:left;
+        width:33%;
+    }
+.Event h1{
+    font-size: 20px;
+}
+.fa-calendar-o{
+    font-size:18px;
+}
+.Event p{
+    font-size:15px;
+}
+.sec8 a{
+    left:35%
+}
+    .SameAdd{
+        float:left;
+        width:33%
+    }
+     /* =================================
+        Social SECTION
+   =========================== */
+.sec11 h1{
+    margin-left:0px
+}
+.linetwo{
+    border:3px solid;
+    left:-5px;
+}
+.page ul {
+  left:60%;
+}
+.sec12{
+    height:45px;
+    font-size:15px;
+}
+.sec12 p{
+    top:-1px
+}
+.sec12 p span{
+    font-size:30px;
+    top:7px;
+
+}
+}
+  /* =================================
+       Responsive  760
+   =========================== */
+
+@media only screen and (max-width:750px) {
+    
+    
+
+    
+    /* ================================================
+        HEADER SECTION
+   =============================================== */
+    .logonav {
+    display:block;
+    width:190px
+}
+    .logonav img{
+        width:100%;
+        margin-top:3px
+    }
+    .NavMenu{
+         padding-bottom:0px;
+         padding-top:0px;
+    }
+.navbar-toggle {
+        margin-top:10px;
+       position:relative;
+      left:35px;
+    border:none
+    }
+.nav.navbar-nav.navbar-nav li a {
+    font-size:15px;
+}
+#SearchText{
+    font-size:14px
+}
+.SRC{
+    font-size:15px
+}
+     /* =================================
+        Slider SECTION
+   =========================== */
+     .sec2{
+        margin-top:51px;
+         height:330px
+    }
+    .sec2 h1{
+    width:340px;
+    font-size:28px;
+    margin-top:-30px;
+}
+.sec2 p{
+    font-size:14px;
+    width:300px;
+    margin-top:-30px
+}
+ .sec2 a{
+    left:40%;
+    padding:5px 10px;
+     font-size:15px;
+     top:200px
+}
+.LeftArrow{
+    font-size:15px;
+    top:280px;
+    left:-5px;
+}
+.LeftArrow:hover{
+    border:none
+}
+.RightArrow:hover{
+    border:none
+}
+.RightArrow{
+    font-size:15px;
+    top:280px;
+    right:-5px;
+}
+ .slide1, .slide1 img,  .slide2, .slide2 img,  .slide3, .slide3 img,  .slide4, .slide4 img{
+    height:330px;
+}
+/* =================================
+        Form SECTION
+   =========================== */
+.sec3 h1{
+    font-size:30px;
+    padding-top:15px
+}
+.FormFill form{
+    margin-top:15px
+}
+.FormFill form input{
+    height:40px;
+    margin-left:0%;
+    font-size:15px;
+}
+#Name{
+    width: 60%;
+    float:left;
+     margin-left:20%;
+}
+#Phone{
+     width: 60%;
+    float:left;
+     margin-left:20%;
+    margin-top:15px
+}
+#Players{
+    height:40px;
+    font-size:15px;
+    width: 60%;
+    float:left;
+    margin-top:15px;
+    margin-left:20%;
+}
+#SubmitDate{
+    width: 60%;
+    float:left;
+     margin-top:15px;
+     margin-left:20%;
+}
+#BtnSubmit{
+    height:40px;
+    font-size:15px;
+    width:37%;
+    margin-top:15px;
+    margin-left:30%;
+}
+.iconGroup{
+    margin-top:260px;
+    text-align:center;
+}
+ .iconGroup img{
+margin-top:30px
+}
+.iconGroup h1{
+    font-size: 20px;
+    margin-top:0px
+}
+.iconGroup p{
+    border-left:none;
+    font-size:13px
+}
+/* =================================
+        Counter SECTION
+   =========================== */
+.sec4{
+margin-top:-70px
+}
+.countSame{
+ width:100%;
+    height:80px;
+}
+.countSame h1{
+    font-size:13px;
+    width:90px;
+    position:relative;
+   left:4px;
+    top:10px;
+    color:#918d8d;
+}
+.counter{
+    font-size:50px;
+    width:50%;
+    top:6px;
+  left:18%
+}
+    /* =================================
+        Content SECTION
+   =========================== */
+    .SectionSame{
+    height:500px
+}
+.SecContent{
+     height: 200px;
+}
+.SecContent h1{
+    font-size:30px;
+  margin-top:20px
+}
+.SecContent p{
+    font-size:15px
+}
+.SecContent a{
+    left:1%;
+   position:relative;
+    top:10px;
+    padding:3px 17px;
+    font-size:15px
+}
+.SecImage{
+    width:100%;
+    height: 300px;
+}
+.extraBg{
+    height:650px;
+}
+    .extraBg h1{
+        position:relative;
+        top:25px
+    }
+    .extraBg  p{
+        position:relative;
+        top:25px
+    }
+     .extraBg  a{
+        position:relative;
+        top:45px
+    }
+    /* =================================
+        Coach SECTION
+   =========================== */
+    .SameCoach{
+        width:100%;
+        float:left;
+        height:600px
+    }
+    .Coach h1{
+    font-size:30px;
+    padding-top:25px
+}
+.CoachRow{
+    height:1800px;
+    text-align:center
+}
+.CoachRow h1{
+    font-size:23px;
+    margin-top:-10px;
+    text-align:center
+}
+.CoachRow h2{
+    font-size:16px;
+    margin-top:3px
+}
+.CoachRow p{
+    font-size:15px;
+    margin-top:16px;
+    border:none;
+}
+.CoachRow a{
+    top:50px;
+    padding:5px 20px;
+    font-size:15px
+}
+.CoachRow img{
+    width:320px;
+    height:320px;
+    border-radius:50%
+}
+    
+    /* =================================
+        Performance SECTION
+   =========================== */
+    
+    .sec7 h1{
+    font-size:30px;
+    padding-top:7px
+}
+    .VideoSection{
+    width:100%;
+    height:1000px;
+}
+
+.FirstVideo{
+    width:100%;
+    height:250px;
+}
+  /* =================================
+        Event SECTION
+   =========================== */
+    .SameEvent{
+        float:left;
+        width:100%;
+        height:400px;
+        text-align:center
+    }
+.sec8{
+   width: 100%;
+    height:1400px
+}
+.sec8 h1{
+    font-size:30px;
+    padding-top:15px
+}
+.Event{
+    margin-top:40px
+}
+.Event img{
+    width:320px;
+    height:250px;
+}
+.Event h1{
+    font-size: 18px;
+    text-align:center;
+    margin-top:0px;
+}
+.fa-calendar-o{
+    font-size:15px;
+    float: none;
+    margin-top:8px;
+}
+.Event p{
+    font-size:15px;
+    margin-left:0px;
+    float:none;
+}
+    .sec8 a{
+        display:none;
+    }
+    .view {
+     visibility: visible;
+    width:100%;
+    text-align:center;
+    }
+    .view a{
+    position:relative;
+    background:rgb(0, 0, 0);
+    color:#ffffff;
+    border: 1px solid black;
+    font-family:OswaldRegular;
+    font-size:15px;
+    text-decoration:none;
+    padding:8px 20px;
+    top:-80px;
+    transition:1s;
+    }
+    .view a:hover{
+        background:transparent;
+        color: black;
+    }
+/* =================================
+        Address SECTION
+   =========================== */
+    
+    .SameAdd{
+        float:left;
+        width:100%;
+        height:150px
+    }
+    .sec9{
+    width: 100%;
+    height:455px;
+    text-align:center
+}
+.info .fa{
+    font-size:35px;
+    text-align:center;
+    margin-top:0px
+}
+.mail{
+    position:relative;
+    top:0px;
+}
+.info h1{
+    font-size:18px;
+    font-weight: bold;
+    color: #7b7b7b;
+    padding-bottom:0px
+}
+.info p{
+    margin-bottom:0px;
+    font-size:15px;
+}
+    .sec10 iframe{
+    height:270px
+}
+    
+     /* =================================
+        Social SECTION
+   =========================== */
+.sec11{
+    background: #EDEDED;
+    margin-top:-20px;
+     height:200px;
+}
+.sec11 h1{
+   text-align: center;
+    font-weight:bold;
+    font-size:30px;
+    padding-top:15px; 
+}
+.linetwo{
+    border:2px solid;
+    width:7%;
+    position:relative;
+    top: 10px
+    
+}
+.page {
+    width:100%;
+    margin:0 auto;
+}
+
+.page ul {
+  top:70px;
+    transform: translate(-31%,-50%);
+}
+
+.page ul li {
+ list-style:none;
+ margin:5px;
+}
+
+.page ul li a .fa {
+   font-size:20px;
+    line-height:40px;
+}
+
+    .page ul li a {
+    background:white;
+    height:40px;
+    width:40px;
+    transform: perspective(1000px) rotate(-0deg) skew(0deg) translate(0,0);
+    transition:.5s;
+    box-shadow:1px 2px 20px rgba(0,0,0,.5);
+}
+.page ul li a:before{
+    width:0px;
+}
+.page ul li a:after{
+    height:0px;
+}
+.page ul li:hover .fa{
+    color:white
+}
+
+.page ul li a:hover{
+    transform:perspective(1000px) rotate(-0deg) skew(0deg) translate(0px,-0px);
+    box-shadow:-3px 3px 20px rgba(0,0,0,.5);
+}
+    
+    
+    .sec12{
+    height:45px;
+    font-size:13px;
+}
+.sec12 p{
+    top:0px
+}
+.sec12 p span{
+    font-size:25px;
+    top:5px;
+}
+    
+}
+
+@media only screen and (max-width:350px) {
+    
+
+    
+    /* ================================================
+        HEADER SECTION
+   =============================================== */
+    .logonav {
+    display:block;
+    width:130px
+}
+    .logonav img{
+        width:100%;
+        margin-top:10px
+    }
+.nav.navbar-nav.navbar-nav li a {
+    font-size:13px;
+}
+#SearchText{
+    font-size:13px
+}
+.SRC{
+    font-size:14px
+}
+    .SearchBt{
+    width:200px
+}
+#SearchText{
+   width:170px;
+    float:left
+}
+     /* =================================
+        Slider SECTION
+   =========================== */
+     .sec2{
+        margin-top:51px;
+         height:250px
+    }
+    .sec2 h1{
+    width:250px;
+    font-size:20px;
+    margin-top:-50px;
+}
+.sec2 p{
+    font-size:11px;
+    width:200px;
+    margin-top:-30px
+}
+ .sec2 a{
+    left:32%;
+    padding:5px 10px;
+     font-size:12px;
+     top:190px
+}
+.LeftArrow{
+    font-size:13px;
+    top:185px;
+    left:-5px;
+}
+.RightArrow{
+    font-size:13px;
+    top:185px;
+}
+ .slide1, .slide1 img,  .slide2, .slide2 img,  .slide3, .slide3 img,  .slide4, .slide4 img{
+    height:250px;
+}
+/* =================================
+        Form SECTION
+   =========================== */
+.sec3 h1{
+    font-size:22px;
+    padding-top:15px
+}
+.FormFill form{
+    margin-top:10px
+}
+.FormFill form input{
+    height:30px;
+    margin-left:0%;
+    font-size:12px;
+}
+#Players{
+    height:30px;
+    font-size:12px;
+}
+#BtnSubmit{
+    height:30px;
+    font-size:12px;
+    width:42%;
+    margin-top:15px;
+    margin-left:29%;
+}
+.iconGroup{
+    margin-top:220px;
+    text-align:center;
+}
+ .iconGroup img{
+margin-top:30px
+}
+.iconGroup h1{
+    font-size: 16px;
+    margin-top:0px
+}
+.iconGroup p{
+    border-left:none;
+    font-size:10px;
+    padding-left:0px
+}
+/* =================================
+        Counter SECTION
+   =========================== */
+.countSame{
+ width:100%;
+    height:65px;
+}
+.countSame h1{
+    font-size:12px;
+   left:7px;
+    top:1px;
+}
+.counter{
+    font-size:40px;
+    width:50%;
+    top:6px;
+  left:18%
+}
+    /* =================================
+        Content SECTION
+   =========================== */
+    .SectionSame{
+    height:400px
+}
+.SecContent{
+     height: 170px;
+}
+.SecContent h1{
+    font-size:22px;
+  margin-top:10px
+}
+.SecContent p{
+    font-size:12px
+}
+.SecContent a{
+    left:1%;
+   position:relative;
+    top:10px;
+    padding:2px 13px;
+    font-size:13px
+}
+.SecImage{
+    width:100%;
+    height: 230px;
+}
+.extraBg{
+    height:530px;
+}
+    .extraBg h1{
+        position:relative;
+        top:25px
+    }
+    .extraBg  p{
+        position:relative;
+        top:25px
+    }
+     .extraBg  a{
+        position:relative;
+        top:45px
+    }
+    /* =================================
+        Coach SECTION
+   =========================== */
+    .SameCoach{
+        width:100%;
+        float:left;
+        height:420px
+    }
+    .Coach h1{
+    font-size:22px;
+    padding-top:20px
+}
+.CoachRow{
+    height:1260px;
+    text-align:center
+}
+.CoachRow h1{
+    font-size:17px;
+    margin-top:-15px;
+    text-align:center
+}
+.CoachRow h2{
+    font-size:13px;
+    margin-top:-5px
+}
+.CoachRow p{
+    font-size:12px;
+    margin-top:0px;
+    border:none;
+}
+.CoachRow a{
+    top:16px;
+    padding:3px 10px;
+    font-size:13px
+}
+.CoachRow img{
+    width:220px;
+    height:220px;
+    border-radius:50%
+}
+    
+    /* =================================
+        Performance SECTION
+   =========================== */
+    
+    .sec7 h1{
+    font-size:22px;
+    padding-top:7px
+}
+    .VideoSection{
+    width:100%;
+    height:710px;
+}
+
+.FirstVideo{
+    width:100%;
+    height:180px;
+    margin-top:-30px
+}
+  /* =================================
+        Event SECTION
+   =========================== */
+    .SameEvent{
+        float:left;
+        width:100%;
+        height:250px;
+        text-align:center
+    }
+.sec8{
+   width: 100%;
+    height:930px
+}
+.sec8 h1{
+    font-size:22px;
+    padding-top:15px;
+}
+.Event{
+    margin-top:20px
+}
+.Event img{
+    width:220px;
+    height:150px;
+}
+.Event h1{
+    font-size: 15px;
+    text-align:center;
+    margin-top:0px;
+}
+.fa-calendar-o{
+    font-size:12px;
+    float: none;
+    margin-top:8px;
+}
+.Event p{
+    font-size:12px;
+    margin-left:0px;
+    float:none;
+}
+    .sec8 a{
+        display:none;
+    }
+    .view {
+     visibility: visible;
+    width:100%;
+    text-align:center;
+    }
+    .view a{
+    font-size:13px;
+    text-decoration:none;
+    padding:6px 10px;
+    top:-85px;
+    transition:1s;
+    }
+
+/* =================================
+        Address SECTION
+   =========================== */
+    
+    .SameAdd{
+        float:left;
+        width:100%;
+        height:110px
+    }
+    .sec9{
+    width: 100%;
+    height:330px;
+    text-align:center
+}
+.info .fa{
+    font-size:22px;
+    text-align:center;
+    margin-top:-15px
+}
+.mail{
+    position:relative;
+    top:-1px;
+}
+.info h1{
+    font-size:15px;
+    font-weight: bold;
+    color: #7b7b7b;
+    padding-bottom:0px;
+    margin-top:7px
+}
+.info p{
+    margin-bottom:0px;
+    font-size:12px;
+}
+.sec10 iframe{
+    height:240px
+}
+     /* =================================
+        Social SECTION
+   =========================== */
+.sec11{
+    background: #EDEDED;
+    margin-top:-20px;
+     height:180px;
+}
+.sec11 h1{
+   text-align: center;
+    font-weight:bold;
+    font-size:23px;
+    padding-top:15px; 
+}
+.linetwo{
+    border:2px solid;
+    width:7%;
+    position:relative;
+    top: -5px
+    
+}
+.page {
+    width:100%;
+    margin:0 auto;
+}
+
+.page ul {
+  top:70px;
+    transform: translate(-50%,-90%);
+}
+
+    .sec12{
+    height:60px;
+    font-size:13px;
+}
+.sec12 p{
+    top:0px
+}
+.sec12 p span{
+    font-size:22px;
+    top:5px;
+}
+    
+}

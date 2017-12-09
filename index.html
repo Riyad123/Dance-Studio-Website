@@ -1,0 +1,425 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dance Studio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/Datepicker.css">
+        <link rel="stylesheet" href="css/video.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/BootstrapBreakPoint.css">
+        <link rel="stylesheet" href="css/Responsive.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+      <div id="loading">
+          <img src="img/44frgm.gif" alt="">
+      </div>
+       <div id="full">
+          
+          
+          <!--start header -->
+           <header class="sec1">
+               <div class="container header">
+                   <img src="img/icon/logo.png" alt="logo" />
+                   <div class="address">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                       <p>2130 Fulton Street San Diego,</p><br/>
+                       <p>CA 94117-1080 USA</p>
+                   </div>
+                   <div class="contact">
+                       <i class="fa fa-phone" aria-hidden="true"></i>
+                       <p>1-800-1234-567</p><br/>
+                       <p>1-800-6547-321</p>
+                   </div>
+               </div>
+               <hr>
+               <div class="container MenuBar ">
+                   <nav class="navbar navbar-default NavMenu">
+                      <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <div class="logonav">
+                              <img src="img/icon/logo.png" alt="logo" />
+                          </div>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
+                            <li><a  class="active" href="#">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CLASSES</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">TRAINING PROGRAMS</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">PAGES</a></li>
+                            <li><a href="#">CONTACTS</a></li>
+                          </ul>
+                          <form class="navbar-form navbar-left SearchBt">
+                                     <div class="form-group">
+                                       <input id="SearchText" type="text" class="form-control" placeholder="Search">
+                                    </div>
+                                    <button type="submit" class="btn btn-default fa fa-search SRC"></button>
+                            </form>
+                            <div id="hidesearch">
+                                    <div onclick="SearchBarShow();" class="fa fa-search srch Search"></div>
+                                    <div onclick="SearchBarHide();" class="fa fa-times Cross"></div>
+                            </div>
+                        </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+               </div>
+           </header>
+           
+                     <!--SLIDER SECTION-->
+
+           <div class="sec2">
+              <div class="LeftArrow">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+               </div>
+              <div class="RightArrow">
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
+               <div class="slide1">
+                  <img src="img/slider/one.jpg" alt="slideImage">
+                   <h1  class="hh animated fadeInUp">THE ART OF MOVEMENT</h1>
+                   <p class="pp animated fadeInUp">Becoming a part of Dance Studio and learning your favorite style of dancing means enjoying the essence of dance as a kind of art.</p>
+                  <a class="aa animated fadeInUp" href="#">LEARN MORE</a>
+               </div>
+               <div class="slide2">
+                  <img src="img/slider/two.jpg" alt="slideImage">
+                  <h1 class="hh animated fadeInUp">EXPRESS YOURSELF IN DANCE</h1>
+                  <p  class="pp animated fadeInUp">Since its opening on August 15, 1996, Dance Studio has become a unique place where teenagers, children, and adults can enjoy the art of dancing.</p>
+                <a class="aa animated fadeInUp" href="#">LEARN MORE</a>
+               </div>
+               <div class="slide3">
+                  <img src="img/slider/three.jpg" alt="slideImage">
+                   <h1 class="hh animated fadeInUp">THE ART OF MOVEMENT</h1>
+                   <p class="pp animated fadeInUp">Becoming a part of Dance Studio and learning your favorite style of dancing means enjoying the essence of dance as a kind of art.</p>
+                   <a class="aa animated fadeInUp" href="#">LEARN MORE</a>
+               </div>
+               <div class="slide4">
+                  <img src="img/slider/four.jpg" alt="slideImage">
+                   <h1 class="hh animated fadeInUp">BECOME A PRO DANCER</h1>
+                    <p  class="pp animated fadeInUp">With our professional coaches, instructors, and choreographers, you will master the professional dancing techniques.</p>
+                   <a class="aa animated fadeInUp" href="#">LEARN MORE</a>
+               </div>
+           </div>
+             <!--Form SECTION-->
+           <div class="sec3">
+               <div class="FormFill">
+                  <h1>Fill the Form</h1>
+                   <form action="#">
+                       <input id="Name" type="text"  placeholder="Your name" />
+                       <input id="Phone" type="text"  placeholder="Phone" />
+                       <select id="Players" name="Players" >
+                           <option class="blackcl" value="Players">Players</option>
+                           <option class="blackcl" value="1">1</option>
+                           <option class="blackcl" value="2">2</option>
+                           <option class="blackcl" value="3">3</option>
+                           <option class="blackcl" value="4">4</option>
+                           <option class="blackcl" value="5">5</option>
+                           <option class="blackcl" value="7">6</option>
+                           <option class="blackcl" value="8">7</option>
+                       </select>
+                       <input id="SubmitDate"  placeholder="Date" />
+                       <input id="BtnSubmit" type="submit" value="BOOK YOUR LESSON">
+                   </form>
+               </div>
+               <div class="container">
+                   <div class="row iconGroup">
+                       <div class="col-md-4">
+                           <img src="img/icon/grou%5B.png" alt="Image" />
+                           <h1>Group Dance Classes</h1>
+                           <p>Our Group Dance Classes are perfect for beginners who want to enjoy the dance.</p>
+                       </div>
+                       <div class="col-md-4">
+                          <img src="img/icon/one.png" alt="Image" />
+                          <h1>Private Dance Lessons</h1>
+                          <p>Receive individual, patient instruction in any of your favorite dances.</p>
+                       </div>
+                       <div class="col-md-4">
+                         <img src="img/icon/two.png" alt="Image" />
+                         <h1>Practice Dance Parties</h1>
+                          <p>Practice parties are the perfect way to practice your new dance steps.</p>
+                       </div>
+                    </div>
+               </div>
+           </div>
+           <!--Counter SECTION-->
+           <div class="sec4">
+               <div class="countSame">
+                  <div class="counter" data-count="20">0</div>
+                     <h1>YEARS </h1><br/>
+                     <h1>OF EXPERIENCE</h1>
+               </div>
+               <div class="countSame">
+                  <div class="counter" data-count="13">0</div>
+                    <h1>PARTNERS </h1><br/>
+                    <h1> WORLDWIDE</h1>
+              </div>
+              <div class="countSame">
+                  <div class="counter" data-count="26">0</div>
+                    <h1>QUALIFIED</h1><br/>
+                    <h1>INSTRUCTORS</h1>
+              </div>
+              <div class="countSame">
+                  <div class="counter" data-count="18">0</div>
+                  <h1>STUDENT</h1><br/>
+                  <h1>GROUPS</h1>
+              </div>
+               
+           </div>
+           <!--Content SECTION-->
+           <div class="sec5">
+               <div class="SectionSame extraBg">
+                  <div class="SecVideo">
+                      <div class="VideoFrame">
+                          <video  poster="img/video/vid.jpg" onended="videoEnded(this)">
+                                <source src="video/title.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                      </div>
+                   </div>
+                   <div class="SecContent extraBg">
+                       <h1>A Few Words About Our Studio</h1>
+                       <p>
+                           We are a group of professional dancers and teachers wishing to create a central home for all those involved in dancing.<br/><br/>
+
+                            We offer dance classes for all ages and for all levels of training, beginning through pre-professional. Learn everything from ballet to tap dance, jazz, hip-hop, break dance, and more. Sign up for classes today and make your wishes come true!
+                       </p>
+                       <a href="#">LEARN MORE</a>
+                   </div>
+               </div>
+               <div class="SectionSame">
+                  <div class="SecImage imgOne">
+                       <img src="img/body/one.jpg" alt="Image">
+                   </div>
+                   <div class="SecContent">
+                       <div class="square" ></div>
+                       <h1>Lessons & Activities</h1>
+                       <p>Discover the fascination of dance with our group and private lessons and activities!</p>
+                       <a href="#">BOOK NOW</a>
+                   </div>
+               </div>
+               <div class="SectionSame">
+                  <div class="SecImage imgTwo">
+                      <div class="square" ></div>
+                       <img src="img/body/two.jpg" alt="Image">
+                   </div>
+                   <div class="SecContent">
+                       <h1>Benefits of Dance</h1>
+                       <p>
+                           There are numerous benefits to partaking in dance classes ranging from exercising to making new friends.
+                       </p>
+                      <a href="#">BOOK NOW</a>
+                   </div>
+               </div>
+               <div class="SectionSame">
+                  <div class="SecImage imgThree">
+                       <img src="img/body/three.jpg" alt="Image">
+                   </div>
+                   <div class="SecContent">
+                      <div class="square" ></div>
+                       <h1>Four Seasons Dance Academy</h1>
+                       <p>
+                            A perfect opportunity for teenagers to plunge into the world of dance and learn new moves.
+                       </p>
+                       <a href="#">BOOK NOW</a>
+                   </div>
+               </div>
+           </div>
+           <!--Instructors SECTION-->
+           <div class="sec6">
+               <div class="Coach">
+                   <h1>Coaches and Instructors</h1>
+                   <hr class="line">
+                   <div class="container CoachRow">
+                       <div class="row">
+                            <div class="col-md-4 SameCoach">
+                                <div class="CoachSec">
+                                    <img src="img/coach/1.jpg" alt="Image">
+                                    <h1>Scott Jenkins</h1>
+                                    <h2>Owner, head instructor</h2>
+                                    <p>Scott Jenkins has been the Owner and Head Coach since 1996.</p>
+                                    <a href="#">GET IN TOUCH</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 SameCoach">
+                                   <div class="CoachSec">
+                                       <img src="img/coach/3.jpg" alt="Image">
+                                       <h1>Jessica Priston</h1>
+                                       <h2>dance instructor</h2>
+                                       <p>Jessica is an award-winning choreographer with expertise in Hip-Hop and Jazz.</p>
+                                        <a href="#">GET IN TOUCH</a>
+                                   </div>
+                            </div>
+                            <div class="col-md-4 SameCoach">
+                                 <div class="CoachSec">
+                                     <img src="img/coach/2.jpg" alt="Image">
+                                     <h1>Lawrence Larson</h1>
+                                     <h2>coach</h2>
+                                     <p>Lawrence Larson is a dance teacher and choreographer, specializing in Ballet Dance.</p>
+                                      <a href="#">GET IN TOUCH</a>
+                                 </div>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </div>
+             <!--Student Performance SECTION-->
+           <div class="sec7">
+              <h1>Our Performance</h1>
+              <hr class="line">
+              <div class="VideoSection">
+                  <div class="FirstVideo">
+                      <div class="FirstOne">
+                          <div class="VideoFrame ForVideo">
+                          <video  poster="img/video/1st.png" onended="videoEnded(this)">
+                                <source src="video/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                      </div>
+                      </div>
+                      <div class="FirstTwo">
+                          <div class="VideoFrame ForVideo">
+                          <video  poster="img/video/2nd.jpg" onended="videoEnded(this)">
+                                <source src="video/2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                      </div>
+                      </div>
+                  </div>
+                  <div class="FirstVideo">
+                      <div class="FirstOne">
+                          <div class="VideoFrame ForVideo">
+                          <video  poster="img/video/4th.jpg" onended="videoEnded(this)">
+                                <source src="video/3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                      </div>
+                      </div>
+                      <div class="FirstTwo">
+                          <div class="VideoFrame ForVideo">
+                          <video  poster="img/video/3rd.jpg" onended="videoEnded(this)">
+                                <source src="video/4.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                          </video>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+             <!--Event SECTION-->
+           <div class="sec8">
+               <h1>Upcoming Events</h1>
+               <hr class="line">
+               <div class="container Event">
+                   <div class="row">
+                       <div class="col-md-4 SameEvent">
+                            <img src="img/event/one.jpg" alt="Image">
+                           <h1>West Coast Dance Championship</h1>
+                           <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                           <p>September 2-5</p>
+                       </div>
+                       <div class="col-md-4 SameEvent">
+                            <img src="img/event/two.jpg" alt="Image">
+                            <h1>Megadance Championship</h1>
+                           <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                           <p>September 12-15</p>
+                       </div>
+                       <div class="col-md-4 SameEvent">
+                              <img src="img/event/three.jpg" alt="Image">
+                             <h1>National Dance Championship</h1>
+                           <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                           <p>September 18-21</p>
+                       </div>
+                  </div>
+               </div>
+               <a href="#">VIEW ALL TOURNAMENTS</a>
+           </div>
+           <div class="view"><a href="#">VIEW ALL TOURNAMENTS</a></div>
+            <!--Information SECTION-->
+           <div class="sec9">
+               <div class="container info">
+                   <div class="row">
+                         <div class="col-md-4 SameAdd">
+                             <i class="fa fa-phone mail" aria-hidden="true"></i>
+                             <h1>TELEPHONE</h1>
+                             <p>1-800-1234-567</p>
+                             <p>1-800-1234-567</p>
+                         </div>
+                         <div class="col-md-4 SameAdd">
+                             <i class="fa fa-map-marker mail" aria-hidden="true"></i>
+                             <h1>ADDRESS</h1>
+                             <p>2130 Fulton Street San Diego,</p>
+                             <p>CA 94117-1080 USA</p>
+                         </div>
+                         <div class="col-md-4 SameAdd">
+                             <i class="fa fa-envelope" aria-hidden="true"></i>
+                             <h1>E-MAIL</h1>
+                             <p>info@demolink.org</p>
+                         </div>
+                  </div>
+               </div>
+           </div>
+           <!--Map SECTION-->
+           <div class="sec10">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.0904203137725!2d-117.16961908516109!3d32.78986168096811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95553d0c648c1%3A0xf544680df10cb4fa!2sFulton+St%2C+San+Diego%2C+CA+92111%2C+USA!5e0!3m2!1sen!2sbd!4v1503691165730" >
+                   
+               </iframe>
+           </div>
+           <!--Follow us SECTION-->
+           <div class="sec11">
+               <h1>Follow Us</h1>
+               <hr class="linetwo">
+               <div class="page">
+               <ul>
+                   <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>           
+                   <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>           
+                   <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>           
+                   <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>         
+               </ul>
+        </div>
+           </div>
+             <!--Footer SECTION-->
+           <div class="sec12">
+               <p><span>©</span> 2017 All Rights Reserved Terms of Use and Privacy Policy</p>
+           </div>
+       </div>
+       
+        
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/Counter.js"></script>
+        <script src="js/video.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        -->
+    </body>
+</html>

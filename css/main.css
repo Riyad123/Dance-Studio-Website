@@ -1,0 +1,1238 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   font face
+   ========================================================================== */
+@font-face{
+    font-family:'Oswald';
+    src:url('../fonts/Oswald-ExtraLight.ttf') format('truetype')
+}
+@font-face{
+    font-family:'OswaldBold';
+    src:url('../fonts/Oswald-Bold.ttf') format('truetype')
+}
+@font-face{
+    font-family:'OswaldRegular';
+    src:url('../fonts/Oswald-Regular.ttf') format('truetype')
+}
+@font-face{
+    font-family:'OswaldMedium';
+    src:url('../fonts/Oswald-Medium.ttf') format('truetype')
+}
+
+
+
+
+
+@font-face{
+    font-family:'Roboto';
+    src:url('../fonts/Roboto-Black.ttf') format('truetype')
+}
+@font-face{
+    font-family:'RobotoLight';
+    src:url('../fonts/Roboto-Light.ttf') format('truetype')
+}
+@font-face{
+    font-family:'RobotoThin';
+    src:url('../fonts/Roboto-Thin.ttf') format('truetype')
+}
+@font-face{
+    font-family:'RobotoRegular';
+    src:url('../fonts/Roboto-Regular.ttf') format('truetype')
+}
+/* ==========================================================================
+  ANIMATION DELAY
+   ========================================================================== */
+.hh{animation-delay: 1.5s;}
+.pp{animation-delay: 1.9s;}
+.aa{animation-delay: 2.3s;}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    width:99.5%;
+    margin:0 auto;
+}
+h1{
+    font-family:OswaldRegular;
+    font-weight:bold;
+}
+h2{
+     font-family:OswaldRegular;
+}
+p{
+    font-family: RobotoRegular
+}
+.container{
+    width:100%;
+    overflow:visible;
+}
+
+/* ==========================================================================
+        HEADER SECTION
+   ========================================================================== */
+
+#full {
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+} 
+
+.sec1{
+    width:100%;
+}
+.header{
+    width:100%;
+    height:120px;
+    font-family: RobotoRegular;
+    font-size:16px;
+    
+}
+.header p{
+    margin-top:0px;
+    margin-bottom:-20px;
+    
+}
+.header img{
+    float: left;
+    margin-left:5px;
+    margin-top:25px
+}
+.contact{
+    float:right;
+    margin-right:10%;
+    margin-top:10px
+}
+.address{
+    float:right;
+    margin-right:2%;
+    margin-top:10px
+}
+.fa-phone{
+    position: relative;
+    top: 30px;
+    left: -30px;
+    font-size:25px
+}
+.fa-map-marker{
+    position: relative;
+    top: 25px;
+    left: -30px;
+    font-size:25px
+}
+hr{
+    width:95%;
+    margin: 0 auto;
+    border-top: 1px solid black;
+}
+
+.logonav {
+    display: none
+}
+.MenuBar{
+    width: 100%;
+    background:white;
+    z-index: 100;
+    -webkit-box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 5px -3px rgba(0,0,0,0.75);
+}
+.NavMenu {
+    width: 100%;
+    border: none;
+    background:white;
+    color: black;
+    margin-bottom:0px;
+    font-family: OswaldRegular;
+    font-size: 17px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+.nav.navbar-nav.navbar-nav li a {
+    color:black;
+    font-size:17px;
+    transition:.7s;
+    background: none
+}
+.nav.navbar-nav.navbar-nav li a:hover {
+    color:#b2aeae;
+    
+}
+.nav.navbar-nav.navbar-nav li .active {
+    color:#b2aeae;
+}
+.SearchBt{
+    position: absolute;
+    float:right;
+    right: 55px;
+    padding:6px 0px;
+    top:60px;
+    width:250px;
+    overflow: hidden;
+    font-family: RobotoRegular;
+    font-size:19px;
+    display:none;
+    z-index: 50;
+    background:white
+}
+#SearchText{
+   width:200px;
+    outline: none;
+  box-shadow:none !important;
+   border:0px solid #ccc !important;
+    margin-right: -15px;
+    position: relative;
+    font-size:17px;
+}
+.SRC{
+    border: none;
+    margin-right:5px;
+    color: #b2aeae;
+    transition:.5s;
+}
+.SRC:hover{
+    color: black;
+}
+.fa:hover{
+    background:none;
+}
+#hidesearch{
+    position: absolute;
+    float: right;
+    right:50px;
+    width:35px;
+    height:35px;
+    text-align: center;
+    top:11px;
+    transition:.5s;
+}
+.Search{
+    position: absolute;
+    padding:9px;
+    left:0px;
+}
+.Cross{
+   position: absolute;
+    padding:9px;
+    left:1px;
+    display: none;
+}
+#hidesearch:hover {
+   color: #b2aeae;
+    cursor: pointer;
+}
+.Display{
+    display:block;
+}
+
+/* ==========================================================================
+        SLIDER SECTION
+   ========================================================================== */
+.sec2{
+    width:100%;
+    height:525px;
+    overflow:hidden;
+    position: relative;
+    color: #ffffff
+}
+.sec2 h1{
+    position:relative;
+    z-index: 10;
+    text-align: center;
+    width:900px;
+    margin: 0 auto;
+    font-size:70px;
+    font-family: RobotoRegular;
+    font-weight: bold;
+    top:100px;
+}
+.sec2 p{
+    position:relative;
+    top:150px;
+    text-align:center;
+    font-family:RobotoRegular;
+    font-size:20px;
+    width:800px;
+    margin: 0 auto;
+}
+.sec2 a{
+    position:relative;
+    left:45%;
+    top:220px;
+    background:rgba(255, 0, 0, 0);
+    color:white;
+    border: 1px solid white;
+    font-family:OswaldRegular;
+    font-size:18px;
+    text-decoration:none;
+    padding:12px 40px;
+      transition:.5s;
+}
+.sec2 a:hover{
+    background:white;
+    color: black;
+}
+.LeftArrow{
+    position:absolute;
+    z-index:100;
+    color: white;
+    font-size:30px;
+    top:230px;
+    transition:1s;
+    left:15px
+}
+.fa-chevron-left{
+    background:rgba(255, 0, 0, 0);
+   padding:10px 15px;
+    transition:1.5s;
+    border: none;
+}
+.LeftArrow:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+.RightArrow{
+    position:absolute;
+    z-index:100;
+    color: white;
+    font-size:30px;
+    top:230px;
+    transition:1s;
+    right:15px
+}
+.fa-chevron-right{
+    background:rgba(255, 0, 0, 0);
+   padding:10px 15px;
+    transition:1.5s;
+    border: none;
+}
+.RightArrow:hover{
+    cursor: pointer;
+    border:1px solid white;
+}
+.slide1{
+    width:100%;
+    position:absolute;
+    display:block;
+    height:525px;
+}
+.slide1 img{
+    position:absolute;
+    height:525px;
+    width:100%
+}
+
+
+.slide2{
+    width:100%;
+    position:absolute;
+   display:none;
+    height:525px
+}
+.slide2 img{
+    position:absolute;
+    height:525px;
+    width:100%
+}
+
+
+.slide3{
+    width:100%;
+    position:absolute;
+   display:none;
+    height:525px;
+}
+.slide3 img{
+    position:absolute;
+    height:525px;
+    width:100%
+}
+
+
+.slide4{
+    width:100%;
+    position:absolute;
+    display:none;
+    height:525px
+}
+.slide4 img{
+    position:absolute;
+    height:525px;
+    width:100%
+}
+
+
+/* ==========================================================================
+        FORM SECTION
+   ========================================================================== */
+
+.sec3{
+    width:100%;
+    text-align: center;
+    background:#F6F6F7;
+    position: relative;
+    top:-20px
+}
+.sec3 h1{
+    font-family:OswaldRegular;
+    font-size:45px;
+    padding-top:50px
+}
+.FormFill form{
+    width:100%;
+    margin-top:30px
+}
+
+.FormFill form input{
+    float: left;
+    overflow: hidden;
+    height:50px;
+    margin-left:2%;
+    border:1px solid black;
+    box-shadow:none;
+    text-indent:15px;
+    font-family:RobotoRegular;
+    font-size:17px;
+    outline:none;
+}
+.FormFill form input:focus{
+    outline: none;
+}
+
+#Name{
+    width: 27%;
+}
+
+#Phone{
+    width: 18%;
+}
+#Players{
+     float: left;
+    overflow: hidden;
+    height:50px;
+    margin-left:2%;
+    border:1px solid black;
+    box-shadow:none;
+    text-indent:15px;
+    font-family:RobotoRegular;
+    font-size:17px;
+    outline:none;
+    width: 14%;
+}
+#SubmitDate{
+    width: 14%
+}
+#BtnSubmit{
+         float: left;
+    overflow: hidden;
+    height:50px;
+    margin-left:2%;
+    border:1px solid black;
+    box-shadow:none;
+    font-family:OswaldRegular;
+    font-size:17px;
+    outline:none;
+    width: 14%;
+    background:black;
+    color: white;
+    transition:.7s;
+    text-align:center;
+    text-indent:0px
+}
+#BtnSubmit:hover{
+    background: white;
+    color:black;
+}
+.iconGroup{
+    width:100%;
+    margin-top:200px;
+    text-align: left;
+    padding-bottom:100px
+}
+.iconGroup img{
+margin-left:2%;
+}
+.iconGroup h1{
+    margin-left:2%;
+    font-family:RobotoRegular;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top:-30px;
+}
+.iconGroup p{
+    margin-left: 2%;
+    border-left:2px solid #c9c9c9;
+    padding-left:15px
+}
+
+/* ==========================================================================
+        counter section
+   ========================================================================== */
+.sec4{
+width:100%;
+background:black;;
+margin:0 auto;
+position:relative;
+margin-top:-17px
+}
+.countSame{
+ width:25%;
+    float:left;
+    background:black;
+    height:225px;
+    color:white;
+    font-family: OswaldRegular;
+    overflow:hidden;
+    
+}
+.countSame h1{
+    font-size:17px;
+    width:60%;
+    margin-bottom:-30px;
+    float:left;
+    position:relative;
+   left: 12%;
+    top:85px;
+    color:#918d8d
+}
+.counter{
+    font-size:70px;
+    float:left;
+    width:30%;
+    text-align:center;
+    position:relative;
+    top:61px;
+    left:10%
+}
+/*==========================================================================
+        CONTENT SECTION
+   ========================================================================== */
+
+.sec5{
+    width:100%
+}
+.SectionSame{
+    width:100%;
+    overflow:hidden;
+    height: 500px;
+}
+.SecContent{
+    width:50%;
+    float: left;
+    text-align:left;
+    font-family:OswaldRegular;
+     height: 500px;
+    position:relative;
+}
+.SecContent h1{
+    font-size:40px;
+    width:100%;
+   padding:7%;
+    margin-top:60px
+}
+.SecContent p{
+    font-family:RobotoRegular;
+    width:80%;
+    margin-left:7%;
+    font-size:17px;
+    border-left:3px solid #cbcbcb;
+    padding-left: 15px;
+}
+.SecContent a{
+   position:relative;
+    background:black;
+    color:white;
+    border: 1px solid black;
+    font-family:OswaldRegular;
+    font-size:18px;
+    text-decoration:none;
+    padding:12px 40px;
+    left:7%;
+    top:50px;
+    transition:1s
+}
+.SecContent a:hover{
+    color:black;
+    background:transparent
+}
+.SecImage{
+    width:50%;
+    float:left;
+    height: 500px;
+    position: relative;
+}
+.imgTwo{
+    float:right
+}
+.SecImage img{
+    height:100%;
+    width:100%
+}
+.extraBg{
+    height:600px;
+    background: #e8e8e8
+}
+.square{
+    height:20px;
+    width:20px;
+    background:#ffffff;
+    position:absolute;
+    transform: rotate(45deg);
+   left:-10px;
+    top:240px
+}
+/* ==========================================================================
+     Coach Section
+   ========================================================================== */
+.sec6{
+    width:100%;
+    background: #ededed;
+    margin:0 auto;
+    margin-top:-20px
+}
+.Coach{
+    width:100%;
+}
+.Coach h1{
+    text-align: center;
+    font-size:45px;
+    padding-top:70px
+}
+.line{
+    width:7%;
+   height:2px;
+    background:black;
+    margin: 0 auto;;
+    margin-top:25px
+}
+.CoachRow{
+    margin-top:60px;
+    height:765px
+}
+.CoachRow img{
+    width:100%
+}
+.CoachRow h1{
+    text-align:left;
+    font-family:RobotoRegular;
+    font-weight:bold;
+    font-size:32px;
+    margin-top:-55px
+}
+.CoachRow h2{
+    font-weight:bold;
+    font-size:19px;
+    margin-top:-8px;
+    color: #a3a3a3;
+    text-transform:uppercase
+}
+.CoachRow p{
+    border-left:2px solid #b2b2b2;
+    padding-left:3%;
+    margin-top:35px;
+    font-size:17px
+}
+.CoachRow a{
+   position:relative;
+    background:rgba(0, 0, 0, 0);
+    color:black;
+    border: 1px solid black;
+    font-family:OswaldRegular;
+    font-size:18px;
+    text-decoration:none;
+    padding:12px 40px;
+    top:50px;
+    transition:1s
+}
+.CoachRow a:hover{
+    color :white;
+    background:black
+}
+/* ==========================================================================
+   Video section
+   ========================================================================== */
+
+
+.sec7{
+    width: 100%;
+    text-align:center;
+}
+.sec7 h1{
+    font-size:45px;
+    padding-top:70px
+}
+.VideoSection{
+    width:100%;
+    height:800px;
+    margin-top:60px;
+}
+
+.FirstVideo{
+    width:100%;
+    height:400px;
+}
+.FirstOne{
+    width:50%;
+    height:100%;
+    float: left;
+}
+.FirstTwo{
+    width:50%;
+
+    height:100%;
+    float: left;
+}
+.ForVideo{
+   margin-top:0px;
+    margin-right:0px;
+}
+
+/* ==========================================================================
+  Event Section
+   ========================================================================== */
+.sec8{
+   width: 100%;
+    background:#EDEDED;
+    height:850px
+}
+.sec8 h1{
+    text-align:center;
+    font-size:45px;
+    padding-top:70px
+}
+.Event{
+    width: 100%;
+    margin-top:65px
+}
+.Event img{
+    width:100%;
+    height:300px;
+}
+.Event h1{
+    font-family:RobotoRegular;
+    font-size: 22px;
+    font-weight:bolder;
+    text-align: left;
+    margin-top:-50px
+}
+.fa-calendar-o{
+    font-size:22px;
+    color:#898989;
+    float: left;
+    margin-top:2px
+}
+.Event p{
+    font-size:17px;
+    font-weight:bold;
+    float: left;
+    color:#898989;
+    margin-left:10px
+}
+.sec8 a{
+     position:relative;
+    background:rgb(0, 0, 0);
+    color:#ffffff;
+    border: 1px solid black;
+    font-family:OswaldRegular;
+    font-size:18px;
+    text-decoration:none;
+    padding:12px 40px;
+    top:90px;
+    transition:1s;
+    left:40%;
+}
+.sec8 a:hover{
+    background:white;
+    color: black
+}
+.view {
+    visibility:hidden;
+}
+/* ==========================================================================
+   Information  Section
+   ========================================================================== */
+.sec9{
+    width: 100%;
+    height:300px;
+    text-align:center
+}
+.info{
+    width:100%;
+}
+.info .fa{
+    font-size:50px;
+    width:100%;
+    text-align:center;
+    margin-top:65px
+}
+.mail{
+    position:relative;
+    top:5px;
+    left:0px
+}
+.info h1{
+    font-size:20px;
+    font-weight: bold;
+    color: #7b7b7b;
+    padding-bottom:20px
+}
+.info p{
+    margin-bottom:0px;
+    font-size:17px;
+}
+
+/* ==========================================================================
+  MAP section
+   ========================================================================== */
+
+.sec10{
+    width:100%;
+}
+.sec10 iframe{
+    width:100%;
+    border:none;
+    height:450px
+}
+
+/* ==========================================================================
+   For Social media
+   ========================================================================== */
+.sec11{
+    background: #EDEDED;
+    margin-top:-20px;
+     height:400px;
+}
+.sec11 h1{
+   text-align: center;
+    font-weight:bold;
+    font-size:45px;
+    padding-top:65px; 
+    margin-left:-100px
+}
+.linetwo{
+    border:3px solid;
+    width:7%;
+    position:relative;
+    left:-55px;
+    top: 20px
+    
+}
+.page {
+    width:100%;
+    margin:0 auto;
+}
+
+.page ul {
+  position:relative;
+  display:flex;
+  top:130px;
+  left:70%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0
+}
+
+.page ul li {
+ list-style:none;
+ margin:0 40px;
+}
+
+.page ul li a .fa {
+   font-size:40px;
+    color: black;
+    line-height:80px;
+    transition:.5s
+}
+
+.page ul li a {
+    position:relative;
+    display:block;
+    background:white;
+    height:80px;
+    width:80px;
+    text-align:center;
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow:-20px 20px 10px rgba(0,0,0,.5);
+}
+.page ul li a:before{
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background:#b1b1b1;
+    transition:.5s;
+    transform: rotate(0deg) skewY(-45deg)
+}
+.page ul li a:after{
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background:#b1b1b1;
+    transition:.5s;
+    transform: rotate(0deg) skewx(-45deg)
+}
+
+.page ul li:hover .fa{
+    color:white
+}
+
+.page ul li a:hover{
+    transform:perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+    box-shadow:-50px 50px 50px rgba(0,0,0,.5);
+}
+
+.page ul li:hover:nth-child(1) a{
+    background:#3b5999
+}
+.page ul li:hover:nth-child(1) a:before{
+    background:#344b7e
+}.page ul li:hover:nth-child(1) a:after{
+    background:#344b7e
+}
+
+
+.page ul li:hover:nth-child(2) a{
+    background:#55acee
+}
+.page ul li:hover:nth-child(2) a:before{
+    background:#4591cb
+}.page ul li:hover:nth-child(2) a:after{
+    background:#4591cb
+}
+
+.page ul li:hover:nth-child(3) a{
+    background:#dd4b39
+}
+.page ul li:hover:nth-child(3) a:before{
+    background:#b24133
+}.page ul li:hover:nth-child(3) a:after{
+    background:#b24133
+}
+
+.page ul li:hover:nth-child(4) a{
+    background:#cd201f
+}
+.page ul li:hover:nth-child(4) a:before{
+    background:#8e0908
+}.page ul li:hover:nth-child(4) a:after{
+    background:#8e0908
+}
+
+
+/* ==========================================================================
+footer section
+   ========================================================================== */
+.sec12{
+    height:70px;
+    width: 100%;
+    text-align:center;
+    font-size:20px;
+    font-weight: bold;
+    color: #adadad
+}
+.sec12 p{
+    position:relative;
+    top:10px
+}
+.sec12 p span{
+    font-size:35px;
+    position:relative;
+    top:5px;
+    color: black;
+}
+#loading{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background:#ffffff;
+    z-index: 99999;
+    width:100%;
+    text-align:center;
+}
+#loading img{
+    position:relative;
+    width:60%;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+.showme{
+    display: block;
+}
+
+
+.addingclass{
+    position:fixed;
+    z-index:100;
+    margin-top:-123px;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+/*-----------------stat here------------------*/
