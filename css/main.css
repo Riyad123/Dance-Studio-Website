@@ -145,6 +145,7 @@ textarea {
 body{
     width:99.5%;
     margin:0 auto;
+   max-width:1366px;
 }
 h1{
     font-family:OswaldRegular;
